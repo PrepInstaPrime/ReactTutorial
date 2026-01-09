@@ -1,9 +1,10 @@
 import React from 'react'
 import panda from '../assets/image.png'
 import './style.css'
-export default function Author() {
+export default function Author({clk}) {
   return (
     <div className='author'>
+         <p>Clicked Value * 2 : {clk}</p>
          <div className="profile">
             <img src={panda} alt="panada profile" />
             <p className='title'>Panda Ji</p>
