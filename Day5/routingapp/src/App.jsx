@@ -5,6 +5,7 @@ import About from './pages/About'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Profile from './pages/Profile'
+import Login from './components/Login'
 export default function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ export default function App() {
          <Route path='/blog' element={<Blog/>}/>
          <Route path='/contact' element={<Contact/>}/>
          <Route path='/profile' element={<Profile/>} />
+         <Route path='/login' element={<Login/>}/>
       </Routes>
     </div>
   )
